@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+
+  <!--================== Browser -> Microsoft Edge =================-->
+  <!--================== Editor -> Visual Studio Coder =================-->
+  <!--================== Kenntniss JavaScript -> Konnte in der Lehre, bei der Erstellung der Website vom Geschäft mitarbeiten und so habe ich groben Grundlagen kennengelernt.  =================-->
+<!--================== Quellen
+    https://www.w3schools.com/
+    https://www.heise.de/tipps-tricks/HTML-Grundlagen-Layout-und-CSS-3915107.html
+    https://css-tricks.com/
+    https://www.youtube.com/@CrypticalCoder/featured
+    https://youtu.be/iG2jotQo9NI
+    https://www.revilodesign.de/blog/css-tricks/
+    https://urnaesch.ch/
+    https://www.fhgr.ch/=================-->
+  <html lang="de">
+    <head>
+        <title>Noemi Ersinger</title>
+
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Noemi Ersinger ist eine Digital Business Management und arbeitet gleichzeitig noch im Marketing. Erfahren Sie unter anderem welche Hobbies, Fähigkeiten und Webempfehlungen sie hat.">
+        <meta name="keywords" content="HTML, CSS, Home, Mein Umfeld, Lebenslauf, Fähigkeiten, Hobbies, Webempfehlungen, Kontakt">
+        <meta name="author" content="Noemi Ersinger, 08.01.2023">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="refresh" content="60">
+
+        <!-- ========= Icons =========-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--================== Swiper Css =================-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+            />
+
+        <!--================== Css =================-->
+        <link rel="stylesheet" href="css/mainpage-style.css">
+        
+    </head>
+    <body>
+        <!--================== Header =================-->
+        <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Hello</a>
+                    </li>
+
+                    <li>
+                        <a href="#meinumfeld" class="nav__link">Mein Umfeld</a>
+                    </li>
+
+                    <li>
+                        <a href="#lebenslauf" class="nav__link">Lebenslauf</a>
+                    </li>
+
+                    <li>
+                        <a href="#hobbies" class="nav__link">Hobbies</a>
+                    </li>
+                
+                    <li>
+                        <a href="#webempfehlungen" class="nav__link">Webempfehlungen</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#contact" class="nav__link">Kontakt</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+
+        </nav>
+    </header>
+        <!--================== Main =================-->
+
+        <main class="main">
+              <main class="main"></main>
+
+            <!--================== Home =================-->
+            <section class="home" id="home">
+             <div class="home__container container grid">
+                <img src="bilder/home.bild2.jpg" alt="" class="home__img" />
+
+                <div class="home__data">
+                <h1 class="home__name">Noemi Ersinger_</h1>
+                <p class="home__work">DBM Studentin, Marketingmitarbeiterin</p>
+                <dl class="home__list">
+                    <dt>ALTER:</dt>
+                    <dd>20</dd>
+                    <dt>TELEFON:</dt>
+                    <dd>+41 76 805 29 69</dd>
+                    <dt>E-MAIL:</dt>
+                    <dd>
+                        <a href="mailto:ersingernoemi@gmail.com subject="Text der Betreffzeile"">ersingernoemi@gmail.com</a>
+                    </dd>
+                    <dt>ADRESSE:</dt>
+                    <dd>Goldgasse 23, 7000 Chur</dd>
+                </dl>
+                <div class="home__socials">
+                    <a href="https://www.linkedin.com/in/noemi-ersinger-742587247" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_n.e.rsinger_/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.facebook.com/noemi.ersinger" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    </div>
+                </div>
+             </div>   
+            </section>
+            
+            <!--================== Mein Umfeld =================-->
+            <section class="meinumfeld section container" id="meinumfeld">
+    <h2 class="section__title">Mein Umfeld_</h2>
+
+    <div class="inhaltemeinumfeld__container grid">
+        <a href="meinumfeld_details.html" class="inhaltmeinumfeld__card">
+            <img src="bilder/Icon Urnäsch - weiss.svg" alt="" class="center">
+
+            <div class="inhaltmeinumfeld__content">
+                <h2 class="inhaltmeinumfeld__title2 text-sm">URNÄSCH</h2>
+                <p class="inhaltmeinumfeld__description text-sm">Ein Dorf voller Traditionen und meine Heimat.</p>
+            </div>
+        </a>
+
+        <a href="meinumfeld_details2.html" class="inhaltmeinumfeld__card">
+            <img src="bilder/Icon Familie - weiss.svg" alt="" class="center">
+
+            <div class="inhaltmeinumfeld__content">
+                <h2 class="inhaltmeinumfeld__title2 text-sm">FAMILIE</h2>
+                <p class="inhaltmeinumfeld__description text-sm">Eine eingespielte, 4-Köpfige Familie.</p>
+            </div>
+        </a>
+
+        <a href="meinumfeld_details3.html" class="inhaltmeinumfeld__card">
+            <img src="bilder/Icon Tiere - weiss.svg" alt="" class="center">
+
+            <div class="inhaltmeinumfeld__content">
+                <h2 class="inhaltmeinumfeld__title2 text-sm">TIERISCHE FREUNDE</h2>
+                <p class="inhaltmeinumfeld__description text-sm">Zwei Katzen und ein Hund die sich verstehen.</p>
+            </div>
+        </a>
+    </div>
+            </section>
+
+            <!--================== Lebenslauf =================-->
+            <section class="section container" id="lebenslauf">
+                <h2 class="section__title">Lebenslauf_</h2>
+
+                <div class="lebenslauf__container grid">
+                    <div class="lebenslauf__data">
+                        <h3 class="lebenslauf__title text-sm">AUSBILDUNG</h3>
+                            
+                            <div class="lebenslauf__item">
+                            <h3 class="lebenslauf__subtitle text-sm">FACHHOCHSCHULE GRAUBÜNDEN, CHUR</h3>
+                            <p class="lebenslauf__date text-sm">Sep. 2022 - aktuell</p>
+                            <p class="lebenslauf__description text-lg">BSc Digital Business Management</p>
+                            <a href="Lebenslauf_Studium.html"inhalt__card">
+                            <p class="lebenslauf__mehr text-xs">Hier mehr zum Studium</p></a>
+                            </div>
+
+                            <div class="lebenslauf__item">
+                            <h3 class="lebenslauf__subtitle text-sm">KBZ ST.GALLEN, ST. GALLEN</h3>
+                            <p class="lebenslauf__date text-sm">Aug. 2021 - Aug. 2022</p>
+                            <p class="lebenslauf__description text-lg">Berufsmaturität Wirtschaft und Dienstleistung - Typ Wirtschaft</p>
+                            </div>
+
+                            <div class="lebenslauf__item">
+                            <h3 class="lebenslauf__subtitle text-sm">SCHULANLAGE AU, URNÄSCH</h3>
+                            <p class="lebenslauf__date text-sm">Aug. 2009 - Aug. 2018</p>
+                            <p class="lebenslauf__description text-lg">Schulbildung</p>
+                            </div>
+                    </div>
+
+                        <div class="lebenslauf__data">
+                            <h3 class="lebenslauf__title text-sm">BERFUSERFAHRUNG</h3>
+                    
+                            <div class="lebenslauf__item">
+                                <h3 class="lebenslauf__subtitle text-sm">FEHR BRAUNWALDER AG, WINKELN</h3>
+                                <p class="lebenslauf__date text-sm">Dez. 2022 - aktuell</p>
+                                <p class="lebenslauf__description text-lg ">Marketingmitarbeiterin</p>
+                                <a href="Lebenslauf_fehrbraunwalderag.html"inhalt__card">
+                                <p class="lebenslauf__mehr text-xs">Hier mehr zur Fehr Braunwalder AG</p></a>
+                            </div>
+
+                            <div class="lebenslauf__item">
+                                <h3 class="lebenslauf__subtitle text-sm">OETTLI OBST GMBH, AMRISWIL</h3>
+                                <p class="lebenslauf__date text-sm">Mai 2022 - Jul. 2022</p>
+                                <p class="lebenslauf__description text-lg">Verkäuferin</p>
+                                </div>
+
+                            <div class="lebenslauf__item">
+                            <h3 class="lebenslauf__subtitle text-sm">FEHR BRAUNWALDER AG, WINKELN</h3>
+                            <p class="lebenslauf__date text-sm">Aug. 2018 - Aug. 2021</p>
+                            <p class="lebenslauf__description text-lg">Berufslehre Kauffrau EFZ - E-Profil, Dienstleistung und Administration</p>
+                        </div>
+                     </div>
+                </div>
+             </section>
+
+              <!--================== Faehigkeiten =================-->
+              <section class="section container" id="faehigkeiten">
+                <h2 class="section__title">Fähigkeiten_</h2>
+
+                <div class="faehigkeiten__container grid">
+                    <div class="faehigkeiten__content">
+                        <h3 class="faehigkeiten__title text-sm">KENNTNISSE</h3>
+
+                    <div class="faehigkeiten__list grid">
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Englisch</p>
+                                <span class="faehigkeiten__number text-sm">85%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 85%"></span>
+                            </div>
+                        </div> 
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Französisch</p>
+                                <span class="faehigkeiten__number text-sm">70%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 70%"></span>
+                            </div>
+                        </div>     
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">ICT Advances User SIZ</p>
+                                <span class="faehigkeiten__number text-sm">90%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 90%"></span>
+                            </div>
+                        </div>  
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Abacus</p>
+                                <span class="faehigkeiten__number text-sm">85%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 85%"></span>
+                            </div>
+                        </div>
+
+                        </div>    
+                    </div>
+
+                    <div class="faehigkeiten__content">
+                        <h3 class="faehigkeiten__title text-sm">STÄRKEN UND SCHWÄCHEN</h3>
+
+                    <div class="faehigkeiten__list grid">
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Selbständigkeit</p>
+                                <span class="faehigkeiten__number text-sm">100%</span>
+                            </div>
+
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 100%"></span>
+                            </div>
+                        </div> 
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Zuverlässigkeit</p>
+                                <span class="faehigkeiten__number text-sm">95%</span>
+                            </div>
+
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 95%"></span>
+                            </div>
+                        </div> 
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Aufgeschlossenheit</p>
+                                <span class="faehigkeiten__number text-sm">60%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 60%"></span>
+                            </div>
+                        </div>
+
+                        <div class="faehigkeiten__data">
+                            <div class="faehigkeiten__titles">
+                                <p class="faehigkeiten__name text-sm">Präsentationen halten</p>
+                                <span class="faehigkeiten__number text-sm">65%</span>
+                            </div>
+                            <div class="faehigkeiten__bar">
+                                <span class="faehigkeiten__percentage" style="width: 65%"></span>
+                            </div>
+                        </div>
+
+                        </div>    
+                    </div>
+                </div>
+              </section>
+
+            <!--================== Hobbies =================-->
+            <section class="hobbies section container" id="hobbies">
+                <h2 class="section__title">Hobbies_</h2>
+
+                <div class="hobbies__container grid">
+                    <div class="hobbies__item">
+                        <div class="icon__box">
+                            <img 
+                            src="bilder/Icon Reisen - weiss.svg" 
+                            alt=""
+                            class="hobbies__icon"
+                            />
+                            <div class="hobby__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <a href="hobbies_reisen.html" class="hobbies__card">
+                        <h3 class="hobbies__title text-lg">REISEN</h3></a>
+                        <p class="hobbies__detail">
+                            Reisen ist Freiheit.
+                        </p>
+                    </div>
+
+                    <div class="hobbies__item">
+                        <div class="icon__box">
+                            <img 
+                            src="bilder/Icon Musik - weiss.svg" 
+                            alt=""
+                            class="hobbies__icon"
+                            />
+                            <div class="hobby__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <a href="hobbies_musik.html" class="hobbies__card">
+                        <h3 class="hobbies__title text-lg">MUSIK</h3> </a>
+                        <p class="hobbies__detail">
+                            Musik ist Leben.
+                        </p>
+                    </div>
+
+                    <div class="hobbies__item">
+                        <div class="icon__box">
+                            <img 
+                            src="bilder/Icon - Fotografieren - weiss.svg" 
+                            alt=""
+                            class="hobbies__icon"
+                            />
+                            <div class="hobby__dot">
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <a href="hobbies_fotografieren.html" class="hobbies__card">
+                        <h3 class="hobbies__title text-lg">FOTOGRAFIEREN</h3></a>
+                        <p class="hobbies__detail">
+                            Fotografieren ist Kreativität.
+                        </p>
+                    </div>
+
+            </section>
+
+            <!--================== Zitate =================-->
+            <section class="zitate section">
+                <div class="zitat__bg">
+                    <div class="zitat__icon">
+                        <i class="ri-double-quotes-r"></i>
+                </div>
+
+                <div class="swiper zitat__container container">
+                 <br>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide zitat__item">
+                        <h3 class="zitat_inhalt"><q>Laufe nicht der Vergangenheit nach und verliere dich nicht in der Zukunft. Die Vergangenheit ist nicht mehr. Die Zukunft ist noch nicht gekommen. Das Leben ist hier und jetzt.</q></h3>
+                        <br>
+                        <div class="ruler"></div>
+                        <h4 class="zitat__autor text-lg">- Siddhartha Gautama
+                        </h4>
+                    </div>
+
+                    <div class="swiper-slide zitat__item">
+                        <br>
+                        <h3 class="zitat_inhalt"><q>Nur im Alleinsein können wir uns selber finden. Alleinsein ist nicht Einsamkeit, sie ist das größte Abenteuer!</q></h3>
+                        <br>
+                        <div class="ruler"></div>
+                        <h4 class="zitat__autor text-lg">- Hermann Hesse
+                        </h4>
+                    </div>
+
+                    <div class="swiper-slide zitat__item">
+                        <br>
+                        <h3 class="zitat_inhalt"><q>Egoisten denken an andere, helfen anderen so gut sie können – mit dem Ergebnis, dass sie selbst davon profitieren.</q></h3>
+                        <br>
+                        <div class="ruler"></div>
+                        <h4 class="zitat__autor text-lg">- Dalai Lama
+                        </h4>
+                    </div>
+                 </div>
+                <div class="swiper-button-next">
+                    <img src="bilder/Pfeil-rechts_zitate.svg" alt="">
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="bilder/Pfeil-links_zitate.svg" alt="">
+                </div>
+                <div class="swiper-pagination">
+                </div>
+              </div>
+            </div>
+            </section>
+             
+              <!--================== Webempfehlungen =================-->
+              <!--================== Bildlinks
+                https://www.tcu.edu/news/images/FreeRiceChallengeHorizontal-news-mobile.png
+                https://yt3.ggpht.com/a/AATXAJwBIZU4EWJbzJ0bsjkpjWSn898sz9xKShtVFg=s900-c-k-c0xffffffff-no-rj-mo
+                https://popcrate.files.wordpress.com/2017/01/internet-visualization.png?w=768&h=590&crop=1 =================-->
+              <section class="webempfehlungen section container" id="webempfehlungen">
+              <h2 class="section__title">Webempfehlungen_</h2>
+
+                <div class="webs__container grid">
+                <div class="web__item grid mix app">
+                    <img src="bilder/webempfehlung_freerice3.jpg" alt="" class="web__img" />
+
+                <div class="web__data">
+                <h3 class="web title text-lg">FREERICE.COM</h3>
+                <p class="web__description">Mit dieser Website kann man gleichzeitig aktiv etwas gegen den Welthunger machen und auch den eigenen Englisch Wortschatz erweitern. Man bekommt Fragen betreffend Englischwortsynonymen. Bei jeder richtigen Antwort, spenden die Betreiber 10 Reiskörner gegen den Welthunger.</p>
+                <a href="http://freerice.com/" target="_blank" class="web__link text-sm">Zu freerice.com</a>
+                </div>
+            </div>
+
+                <div class="web__item grid">
+                    <img src="bilder/webempfehlung_vorleser3.png" alt="" class="web__img" />
+    
+                    <div class="web__data">
+                    <h3 class="web title text-lg">VORLESER.NET</h3>
+                    <p class="web__description">Die Website Vorleser bietet über 650 kostenlose Hörbücher und Hörspiele als Stream oder zum Download an. Der grosse Vorteil ist, dass dies alles ganz legal ist.</p>
+                    <a href="https://www.vorleser.net/" target="_blank" class="web__link text-sm">Zu vorleser.net</a>
+                    </div>
+                </div>
+
+                <div class="web__item grid">
+                    <img src="bilder/webempfehlung_internetmap3.png" alt="" class="web__img" />
+    
+                    <div class="web__data">
+                    <h3 class="web title text-lg">INTERNET-MAP.NET</h3>
+                    <p class="web__description">Diese Website stellt eine interaktive Karte «The Internet Map» dar. Sie zeigt über 350'000 Internetseiten aud 196 Ländern anhand ihrer Popularität. Die Web-Giganten wie Google und Facebook werden in der Web-Galaxie als grosse Sterne dargestellt. Darum herum gesellen sich, quasi als kleine Planeten, tausende von kleineren Webseiten. </p>
+                    <a href="http://internet-map.net/" target="_blank" class="web__link text-sm">Zu internet-map.net</a>
+                    </div>
+                </div>
+                </section>
+              </div>
+                  
+
+            <!--================== Kontakt =================-->
+            <section class="contact section" id="contact">
+                <div class="contact__content container">
+                    <h2 class="section__title">Kontakt_</h2>
+
+                    <div class="contact__container grid">
+                        <div class="contact__info">
+                            <dl class="contact__list">
+                                <dt>Telefon:</dt>
+                                <dd>+41 76 805 29 69</dd>
+                                <dt>Email:</dt>
+                                <dd>
+                                    <a href="mailto:ersingernoemi@gmail.com subject="Text der Betreffzeile"">ersingernoemi@gmail.com</a>
+                                </dd>
+                                <dt>Adresse:</dt>
+                                <dd>Goldgasse 23, 7000 Chur</dd>
+                            </dl>
+                        <br><br>
+                                <div class="contact__socials">
+                                    <a href="https://www.linkedin.com/in/noemi-ersinger-742587247" target="_blank" class="contact__social-link">
+                                        <i class="ri-linkedin-box-fill"></i>
+                                    </a>
+                                    <a href="https://www.instagram.com/_n.e.rsinger_/" target="_blank" class="contact__social-link">
+                                        <i class="ri-instagram-fill"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/noemi.ersinger" target="_blank" class="contact__social-link">
+                                        <i class="ri-facebook-box-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                            <p class="footer__copy">
+                                &copy; 2022 Noemi Ersinger
+                            </p>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+        
+        <!--================== Mixitup =================-->
+        <script src="js/mixitup.min.js"></script>
+
+        <!--================== Swiper JavaScript =================-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+        <!--================== JavaScript =================-->
+        <script src="js/main.js"></script>
+
+        <!--================== Common =================-->
+        <script src="js/common.js"></script>
+    </body>
+
+</html>
